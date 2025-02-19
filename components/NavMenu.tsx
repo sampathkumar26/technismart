@@ -8,7 +8,7 @@ function NavMenu() {
 					TEKNISMART
 				</h1>
 			</div>
-			<ul className="flex justify-center items-center md:space-x-4 space-x-2 text-base hidden md:flex">
+			<ul className="flex-row justify-center items-center md:space-x-4 space-x-2 text-base hidden md:flex">
 				<li className="flex justify-center items-center">Home</li>
 				<li className="flex justify-center items-center">
 					Technical Solutions

@@ -10,7 +10,7 @@ const Contact = () => {
 				<div className="flex flex-1/2 flex-col gap-4">
 					<div className="rounded-2xl overflow-hidden ">
 						<Image
-							src="/images/contact.svg"
+							src="./images/contact.svg"
 							alt="contact"
 							width="100"
 							height="100"

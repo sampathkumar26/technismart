@@ -14,7 +14,7 @@ export default function Hero() {
 		{
 			title: "Ignite your business with innovative technology solutions that drive success.",
 			button: "Get Started",
-			image: "/images/hero1.svg",
+			image: "./images/hero1.svg",
 			url: "",
 			description:
 				"Harness the power of cutting-edge technologies to elevate your business. From scalable cloud solutions to airtight cybersecurity, we create solutions that enhance performance, streamline processes, and keep you ahead in a rapidly evolving digital world.",
@@ -22,7 +22,7 @@ export default function Hero() {
 		{
 			title: "Unlock the potential of your workforce with top-tier talent, perfectly matched.",
 			button: "Get Started",
-			image: "/images/hero2.svg",
+			image: "./images/hero2.svg",
 			url: "",
 			description:
 				"Find the ideal fit for your business with our comprehensive staffing solutions. Whether onshore, offshore, or via our exclusive Parley marketplace, we provide you with pre-vetted professionals ready to take your business to the next level.",
@@ -57,7 +57,7 @@ export default function Hero() {
 						{content[currentIndex].button}
 					</button>
 				</div>
-				<div className="w-1/3 flex justify-center items-center h-auto hidden md:block p-8">
+				<div className="w-1/3 flex-row justify-center items-center h-auto hidden md:block p-8">
 					<Image
 						src={content[currentIndex].image}
 						alt={content[currentIndex].title}

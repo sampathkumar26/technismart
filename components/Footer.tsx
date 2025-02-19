@@ -52,7 +52,7 @@ const Footer = () => {
 					<div className="flex w-full justify-center gap-10 mt-8">
 						<Link href="">
 							<Image
-								src="/images/instagram.svg"
+								src="./images/instagram.svg"
 								alt="facebook"
 								width={30}
 								height={30}
@@ -61,7 +61,7 @@ const Footer = () => {
 						</Link>
 						<Link href="">
 							<Image
-								src="/images/linkedin.svg"
+								src="./images/linkedin.svg"
 								alt="facebook"
 								width={30}
 								height={30}
@@ -70,7 +70,7 @@ const Footer = () => {
 						</Link>
 						<Link href="">
 							<Image
-								src="/images/twitter.svg"
+								src="./images/twitter.svg"
 								alt="facebook"
 								width={30}
 								height={30}
@@ -79,7 +79,7 @@ const Footer = () => {
 						</Link>
 						<Link href="">
 							<Image
-								src="/images/facebook.svg"
+								src="./images/facebook.svg"
 								alt="facebook"
 								width={30}
 								height={30}
